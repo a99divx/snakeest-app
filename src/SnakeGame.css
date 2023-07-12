@@ -1,0 +1,22 @@
+.game-area {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.dot,
+.apple {
+  position: absolute;
+  height: 5%;
+  width: 5%;
+}
+
+.dot {
+  background-color: black;
+}
+
+.apple {
+  background-color: red;
+}
